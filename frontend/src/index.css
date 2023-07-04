@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+.app {
+    margin: 8rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    background-color: coral;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.borderDiv {
+    border: 2px dashed black;
+    width: 80%;
+    height: 20vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
